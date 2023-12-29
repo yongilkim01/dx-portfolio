@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\dx-portfolio.dir/objects.a
+C:\PROGRA~1\LLVM\bin\llvm-ar.exe qc CMakeFiles\dx-portfolio.dir/objects.a @CMakeFiles\dx-portfolio.dir\objects1.rsp
+g++ -g -mwindows -Wl,--whole-archive CMakeFiles\dx-portfolio.dir/objects.a -Wl,--no-whole-archive -o dx-portfolio.exe -Wl,--out-implib,libdx-portfolio.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\dx-portfolio.dir\linkLibs.rsp

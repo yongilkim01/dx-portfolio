@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/yongi/OneDrive/devs/projects/dx-portfolio/build",
+  "command": "g++ -DUNICODE -D_UNICODE  -g -o CMakeFiles\\dx-portfolio.dir\\src\\main.cc.obj -c C:\\Users\\yongi\\OneDrive\\devs\\projects\\dx-portfolio\\src\\main.cc",
+  "file": "C:/Users/yongi/OneDrive/devs/projects/dx-portfolio/src/main.cc",
+  "output": "CMakeFiles/dx-portfolio.dir/src/main.cc.obj"
+}
+]
