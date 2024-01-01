@@ -3,8 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/dx-portfolio.dir/src/main.cc.obj.d"
   "dx-portfolio.exe"
   "dx-portfolio.exe.manifest"
+  "dx-portfolio.lib"
   "dx-portfolio.pdb"
-  "libdx-portfolio.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

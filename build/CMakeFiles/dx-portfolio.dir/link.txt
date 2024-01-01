@@ -1,3 +1,1 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\dx-portfolio.dir/objects.a
-C:\PROGRA~1\LLVM\bin\llvm-ar.exe qc CMakeFiles\dx-portfolio.dir/objects.a @CMakeFiles\dx-portfolio.dir\objects1.rsp
-g++ -g -mwindows -Wl,--whole-archive CMakeFiles\dx-portfolio.dir/objects.a -Wl,--no-whole-archive -o dx-portfolio.exe -Wl,--out-implib,libdx-portfolio.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\dx-portfolio.dir\linkLibs.rsp
+C:\PROGRA~1\LLVM\bin\CLANG_~1.EXE -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:windows @CMakeFiles\dx-portfolio.dir\objects1.rsp -o dx-portfolio.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:dx-portfolio.lib -Xlinker /pdb:C:\Users\yongi\OneDrive\projects\dx-portfolio\build\dx-portfolio.pdb -Xlinker /version:0.0  @CMakeFiles\dx-portfolio.dir\linkLibs.rsp 
