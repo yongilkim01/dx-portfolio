@@ -80,12 +80,12 @@ clean: CMakeFiles/dx-portfolio.dir/clean
 CMakeFiles/dx-portfolio.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\dx-portfolio.dir\build.make CMakeFiles/dx-portfolio.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\dx-portfolio.dir\build.make CMakeFiles/dx-portfolio.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\yongi\OneDrive\projects\dx-portfolio\build\CMakeFiles --progress-num=1,2 "Built target dx-portfolio"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\yongi\OneDrive\projects\dx-portfolio\build\CMakeFiles --progress-num=1,2,3 "Built target dx-portfolio"
 .PHONY : CMakeFiles/dx-portfolio.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/dx-portfolio.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\yongi\OneDrive\projects\dx-portfolio\build\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\yongi\OneDrive\projects\dx-portfolio\build\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/dx-portfolio.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\yongi\OneDrive\projects\dx-portfolio\build\CMakeFiles 0
 .PHONY : CMakeFiles/dx-portfolio.dir/rule

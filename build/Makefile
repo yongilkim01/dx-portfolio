@@ -128,6 +128,30 @@ dx-portfolio/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\dx-portfolio.dir\build.make CMakeFiles/dx-portfolio.dir/build
 .PHONY : dx-portfolio/fast
 
+src/WidndowsMessageMap.obj: src/WidndowsMessageMap.cpp.obj
+.PHONY : src/WidndowsMessageMap.obj
+
+# target to build an object file
+src/WidndowsMessageMap.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dx-portfolio.dir\build.make CMakeFiles/dx-portfolio.dir/src/WidndowsMessageMap.cpp.obj
+.PHONY : src/WidndowsMessageMap.cpp.obj
+
+src/WidndowsMessageMap.i: src/WidndowsMessageMap.cpp.i
+.PHONY : src/WidndowsMessageMap.i
+
+# target to preprocess a source file
+src/WidndowsMessageMap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dx-portfolio.dir\build.make CMakeFiles/dx-portfolio.dir/src/WidndowsMessageMap.cpp.i
+.PHONY : src/WidndowsMessageMap.cpp.i
+
+src/WidndowsMessageMap.s: src/WidndowsMessageMap.cpp.s
+.PHONY : src/WidndowsMessageMap.s
+
+# target to generate assembly for a file
+src/WidndowsMessageMap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dx-portfolio.dir\build.make CMakeFiles/dx-portfolio.dir/src/WidndowsMessageMap.cpp.s
+.PHONY : src/WidndowsMessageMap.cpp.s
+
 src/main.obj: src/main.cc.obj
 .PHONY : src/main.obj
 
@@ -161,6 +185,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... dx-portfolio
+	@echo ... src/WidndowsMessageMap.obj
+	@echo ... src/WidndowsMessageMap.i
+	@echo ... src/WidndowsMessageMap.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

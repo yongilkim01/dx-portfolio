@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/yongi/OneDrive/projects/dx-portfolio/src/WidndowsMessageMap.cpp" "CMakeFiles/dx-portfolio.dir/src/WidndowsMessageMap.cpp.obj" "gcc" "CMakeFiles/dx-portfolio.dir/src/WidndowsMessageMap.cpp.obj.d"
   "C:/Users/yongi/OneDrive/projects/dx-portfolio/src/main.cc" "CMakeFiles/dx-portfolio.dir/src/main.cc.obj" "gcc" "CMakeFiles/dx-portfolio.dir/src/main.cc.obj.d"
   )
 
