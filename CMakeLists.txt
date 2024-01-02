@@ -15,7 +15,7 @@ endif()
 
 set(SOURCES
   src/main.cc
-  src/WidndowsMessageMap.cpp
+  src/WindowsMessageMap.cpp
 )
 
 set(HEADERS

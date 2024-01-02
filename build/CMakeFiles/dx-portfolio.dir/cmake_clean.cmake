@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/dx-portfolio.dir/src/WidndowsMessageMap.cpp.obj"
-  "CMakeFiles/dx-portfolio.dir/src/WidndowsMessageMap.cpp.obj.d"
+  "CMakeFiles/dx-portfolio.dir/src/WindowsMessageMap.cpp.obj"
+  "CMakeFiles/dx-portfolio.dir/src/WindowsMessageMap.cpp.obj.d"
   "CMakeFiles/dx-portfolio.dir/src/main.cc.obj"
   "CMakeFiles/dx-portfolio.dir/src/main.cc.obj.d"
   "dx-portfolio.exe"

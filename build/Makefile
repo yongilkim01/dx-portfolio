@@ -128,29 +128,29 @@ dx-portfolio/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\dx-portfolio.dir\build.make CMakeFiles/dx-portfolio.dir/build
 .PHONY : dx-portfolio/fast
 
-src/WidndowsMessageMap.obj: src/WidndowsMessageMap.cpp.obj
-.PHONY : src/WidndowsMessageMap.obj
+src/WindowsMessageMap.obj: src/WindowsMessageMap.cpp.obj
+.PHONY : src/WindowsMessageMap.obj
 
 # target to build an object file
-src/WidndowsMessageMap.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\dx-portfolio.dir\build.make CMakeFiles/dx-portfolio.dir/src/WidndowsMessageMap.cpp.obj
-.PHONY : src/WidndowsMessageMap.cpp.obj
+src/WindowsMessageMap.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dx-portfolio.dir\build.make CMakeFiles/dx-portfolio.dir/src/WindowsMessageMap.cpp.obj
+.PHONY : src/WindowsMessageMap.cpp.obj
 
-src/WidndowsMessageMap.i: src/WidndowsMessageMap.cpp.i
-.PHONY : src/WidndowsMessageMap.i
+src/WindowsMessageMap.i: src/WindowsMessageMap.cpp.i
+.PHONY : src/WindowsMessageMap.i
 
 # target to preprocess a source file
-src/WidndowsMessageMap.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\dx-portfolio.dir\build.make CMakeFiles/dx-portfolio.dir/src/WidndowsMessageMap.cpp.i
-.PHONY : src/WidndowsMessageMap.cpp.i
+src/WindowsMessageMap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dx-portfolio.dir\build.make CMakeFiles/dx-portfolio.dir/src/WindowsMessageMap.cpp.i
+.PHONY : src/WindowsMessageMap.cpp.i
 
-src/WidndowsMessageMap.s: src/WidndowsMessageMap.cpp.s
-.PHONY : src/WidndowsMessageMap.s
+src/WindowsMessageMap.s: src/WindowsMessageMap.cpp.s
+.PHONY : src/WindowsMessageMap.s
 
 # target to generate assembly for a file
-src/WidndowsMessageMap.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\dx-portfolio.dir\build.make CMakeFiles/dx-portfolio.dir/src/WidndowsMessageMap.cpp.s
-.PHONY : src/WidndowsMessageMap.cpp.s
+src/WindowsMessageMap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dx-portfolio.dir\build.make CMakeFiles/dx-portfolio.dir/src/WindowsMessageMap.cpp.s
+.PHONY : src/WindowsMessageMap.cpp.s
 
 src/main.obj: src/main.cc.obj
 .PHONY : src/main.obj
@@ -185,9 +185,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... dx-portfolio
-	@echo ... src/WidndowsMessageMap.obj
-	@echo ... src/WidndowsMessageMap.i
-	@echo ... src/WidndowsMessageMap.s
+	@echo ... src/WindowsMessageMap.obj
+	@echo ... src/WindowsMessageMap.i
+	@echo ... src/WindowsMessageMap.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
