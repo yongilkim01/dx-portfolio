@@ -8,3 +8,9 @@ CXX_INCLUDES = @CMakeFiles/dx-portfolio.dir/includes_CXX.rsp
 
 CXX_FLAGS = -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd
 
+# PCH options: CMakeFiles/dx-portfolio.dir/cmake_pch.hxx.pch_OPTIONS = ;-Xclang;-emit-pch;-Xclang;-include;-Xclang;C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/dx-portfolio.dir/cmake_pch.hxx;-x;c++-header
+
+# PCH options: CMakeFiles/dx-portfolio.dir/src/main.cc.obj_OPTIONS = ;-Xclang;-include-pch;-Xclang;C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/dx-portfolio.dir/cmake_pch.hxx.pch;-Xclang;-include;-Xclang;C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/dx-portfolio.dir/cmake_pch.hxx
+
+# PCH options: CMakeFiles/dx-portfolio.dir/src/WindowsMessageMap.cpp.obj_OPTIONS = ;-Xclang;-include-pch;-Xclang;C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/dx-portfolio.dir/cmake_pch.hxx.pch;-Xclang;-include;-Xclang;C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/dx-portfolio.dir/cmake_pch.hxx
+

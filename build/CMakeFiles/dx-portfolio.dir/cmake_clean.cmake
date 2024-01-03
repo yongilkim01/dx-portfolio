@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/dx-portfolio.dir/cmake_pch.hxx.pch"
+  "CMakeFiles/dx-portfolio.dir/cmake_pch.hxx.pch.d"
   "CMakeFiles/dx-portfolio.dir/src/WindowsMessageMap.cpp.obj"
   "CMakeFiles/dx-portfolio.dir/src/WindowsMessageMap.cpp.obj.d"
   "CMakeFiles/dx-portfolio.dir/src/main.cc.obj"

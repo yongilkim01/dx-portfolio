@@ -8,8 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/dx-portfolio.dir/cmake_pch.hxx.cxx" "CMakeFiles/dx-portfolio.dir/cmake_pch.hxx.pch" "gcc" "CMakeFiles/dx-portfolio.dir/cmake_pch.hxx.pch.d"
+  "C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/dx-portfolio.dir/cmake_pch.hxx" "CMakeFiles/dx-portfolio.dir/cmake_pch.hxx.pch" "gcc" "CMakeFiles/dx-portfolio.dir/cmake_pch.hxx.pch.d"
   "C:/Users/yongi/OneDrive/projects/dx-portfolio/src/WindowsMessageMap.cpp" "CMakeFiles/dx-portfolio.dir/src/WindowsMessageMap.cpp.obj" "gcc" "CMakeFiles/dx-portfolio.dir/src/WindowsMessageMap.cpp.obj.d"
+  "C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/dx-portfolio.dir/cmake_pch.hxx" "CMakeFiles/dx-portfolio.dir/src/WindowsMessageMap.cpp.obj" "gcc" "CMakeFiles/dx-portfolio.dir/src/WindowsMessageMap.cpp.obj.d"
   "C:/Users/yongi/OneDrive/projects/dx-portfolio/src/main.cc" "CMakeFiles/dx-portfolio.dir/src/main.cc.obj" "gcc" "CMakeFiles/dx-portfolio.dir/src/main.cc.obj.d"
+  "C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/dx-portfolio.dir/cmake_pch.hxx" "CMakeFiles/dx-portfolio.dir/src/main.cc.obj" "gcc" "CMakeFiles/dx-portfolio.dir/src/main.cc.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

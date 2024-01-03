@@ -68,12 +68,30 @@ include CMakeFiles/dx-portfolio.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/dx-portfolio.dir/flags.make
 
+CMakeFiles/dx-portfolio.dir/cmake_pch.hxx.pch: CMakeFiles/dx-portfolio.dir/flags.make
+CMakeFiles/dx-portfolio.dir/cmake_pch.hxx.pch: CMakeFiles/dx-portfolio.dir/includes_CXX.rsp
+CMakeFiles/dx-portfolio.dir/cmake_pch.hxx.pch: CMakeFiles/dx-portfolio.dir/cmake_pch.hxx.cxx
+CMakeFiles/dx-portfolio.dir/cmake_pch.hxx.pch: CMakeFiles/dx-portfolio.dir/cmake_pch.hxx
+CMakeFiles/dx-portfolio.dir/cmake_pch.hxx.pch: CMakeFiles/dx-portfolio.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\yongi\OneDrive\projects\dx-portfolio\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/dx-portfolio.dir/cmake_pch.hxx.pch"
+	C:\PROGRA~1\LLVM\bin\CLANG_~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Xclang -emit-pch -Xclang -include -Xclang C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/dx-portfolio.dir/cmake_pch.hxx -x c++-header -MD -MT CMakeFiles/dx-portfolio.dir/cmake_pch.hxx.pch -MF CMakeFiles\dx-portfolio.dir\cmake_pch.hxx.pch.d -o CMakeFiles\dx-portfolio.dir\cmake_pch.hxx.pch -c C:\Users\yongi\OneDrive\projects\dx-portfolio\build\CMakeFiles\dx-portfolio.dir\cmake_pch.hxx.cxx
+
+CMakeFiles/dx-portfolio.dir/cmake_pch.hxx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dx-portfolio.dir/cmake_pch.hxx.i"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_PREPROCESSED_SOURCE
+
+CMakeFiles/dx-portfolio.dir/cmake_pch.hxx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dx-portfolio.dir/cmake_pch.hxx.s"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_ASSEMBLY_SOURCE
+
 CMakeFiles/dx-portfolio.dir/src/main.cc.obj: CMakeFiles/dx-portfolio.dir/flags.make
 CMakeFiles/dx-portfolio.dir/src/main.cc.obj: CMakeFiles/dx-portfolio.dir/includes_CXX.rsp
 CMakeFiles/dx-portfolio.dir/src/main.cc.obj: C:/Users/yongi/OneDrive/projects/dx-portfolio/src/main.cc
+CMakeFiles/dx-portfolio.dir/src/main.cc.obj: CMakeFiles/dx-portfolio.dir/cmake_pch.hxx
+CMakeFiles/dx-portfolio.dir/src/main.cc.obj: CMakeFiles/dx-portfolio.dir/cmake_pch.hxx.pch
 CMakeFiles/dx-portfolio.dir/src/main.cc.obj: CMakeFiles/dx-portfolio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\yongi\OneDrive\projects\dx-portfolio\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/dx-portfolio.dir/src/main.cc.obj"
-	C:\PROGRA~1\LLVM\bin\CLANG_~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dx-portfolio.dir/src/main.cc.obj -MF CMakeFiles\dx-portfolio.dir\src\main.cc.obj.d -o CMakeFiles\dx-portfolio.dir\src\main.cc.obj -c C:\Users\yongi\OneDrive\projects\dx-portfolio\src\main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\yongi\OneDrive\projects\dx-portfolio\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/dx-portfolio.dir/src/main.cc.obj"
+	C:\PROGRA~1\LLVM\bin\CLANG_~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Xclang -include-pch -Xclang C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/dx-portfolio.dir/cmake_pch.hxx.pch -Xclang -include -Xclang C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/dx-portfolio.dir/cmake_pch.hxx -MD -MT CMakeFiles/dx-portfolio.dir/src/main.cc.obj -MF CMakeFiles\dx-portfolio.dir\src\main.cc.obj.d -o CMakeFiles\dx-portfolio.dir\src\main.cc.obj -c C:\Users\yongi\OneDrive\projects\dx-portfolio\src\main.cc
 
 CMakeFiles/dx-portfolio.dir/src/main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dx-portfolio.dir/src/main.cc.i"
@@ -86,9 +104,11 @@ CMakeFiles/dx-portfolio.dir/src/main.cc.s: cmake_force
 CMakeFiles/dx-portfolio.dir/src/WindowsMessageMap.cpp.obj: CMakeFiles/dx-portfolio.dir/flags.make
 CMakeFiles/dx-portfolio.dir/src/WindowsMessageMap.cpp.obj: CMakeFiles/dx-portfolio.dir/includes_CXX.rsp
 CMakeFiles/dx-portfolio.dir/src/WindowsMessageMap.cpp.obj: C:/Users/yongi/OneDrive/projects/dx-portfolio/src/WindowsMessageMap.cpp
+CMakeFiles/dx-portfolio.dir/src/WindowsMessageMap.cpp.obj: CMakeFiles/dx-portfolio.dir/cmake_pch.hxx
+CMakeFiles/dx-portfolio.dir/src/WindowsMessageMap.cpp.obj: CMakeFiles/dx-portfolio.dir/cmake_pch.hxx.pch
 CMakeFiles/dx-portfolio.dir/src/WindowsMessageMap.cpp.obj: CMakeFiles/dx-portfolio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\yongi\OneDrive\projects\dx-portfolio\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/dx-portfolio.dir/src/WindowsMessageMap.cpp.obj"
-	C:\PROGRA~1\LLVM\bin\CLANG_~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dx-portfolio.dir/src/WindowsMessageMap.cpp.obj -MF CMakeFiles\dx-portfolio.dir\src\WindowsMessageMap.cpp.obj.d -o CMakeFiles\dx-portfolio.dir\src\WindowsMessageMap.cpp.obj -c C:\Users\yongi\OneDrive\projects\dx-portfolio\src\WindowsMessageMap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\yongi\OneDrive\projects\dx-portfolio\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/dx-portfolio.dir/src/WindowsMessageMap.cpp.obj"
+	C:\PROGRA~1\LLVM\bin\CLANG_~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Xclang -include-pch -Xclang C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/dx-portfolio.dir/cmake_pch.hxx.pch -Xclang -include -Xclang C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/dx-portfolio.dir/cmake_pch.hxx -MD -MT CMakeFiles/dx-portfolio.dir/src/WindowsMessageMap.cpp.obj -MF CMakeFiles\dx-portfolio.dir\src\WindowsMessageMap.cpp.obj.d -o CMakeFiles\dx-portfolio.dir\src\WindowsMessageMap.cpp.obj -c C:\Users\yongi\OneDrive\projects\dx-portfolio\src\WindowsMessageMap.cpp
 
 CMakeFiles/dx-portfolio.dir/src/WindowsMessageMap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dx-portfolio.dir/src/WindowsMessageMap.cpp.i"
@@ -106,13 +126,14 @@ dx__portfolio_OBJECTS = \
 # External object files for target dx-portfolio
 dx__portfolio_EXTERNAL_OBJECTS =
 
+dx-portfolio.exe: CMakeFiles/dx-portfolio.dir/cmake_pch.hxx.pch
 dx-portfolio.exe: CMakeFiles/dx-portfolio.dir/src/main.cc.obj
 dx-portfolio.exe: CMakeFiles/dx-portfolio.dir/src/WindowsMessageMap.cpp.obj
 dx-portfolio.exe: CMakeFiles/dx-portfolio.dir/build.make
 dx-portfolio.exe: CMakeFiles/dx-portfolio.dir/linkLibs.rsp
 dx-portfolio.exe: CMakeFiles/dx-portfolio.dir/objects1.rsp
 dx-portfolio.exe: CMakeFiles/dx-portfolio.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\yongi\OneDrive\projects\dx-portfolio\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable dx-portfolio.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\yongi\OneDrive\projects\dx-portfolio\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable dx-portfolio.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\dx-portfolio.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -128,6 +128,21 @@ dx-portfolio/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\dx-portfolio.dir\build.make CMakeFiles/dx-portfolio.dir/build
 .PHONY : dx-portfolio/fast
 
+# target to build an object file
+cmake_pch.hxx.pch:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dx-portfolio.dir\build.make CMakeFiles/dx-portfolio.dir/cmake_pch.hxx.pch
+.PHONY : cmake_pch.hxx.pch
+
+# target to preprocess a source file
+cmake_pch.hxx.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dx-portfolio.dir\build.make CMakeFiles/dx-portfolio.dir/cmake_pch.hxx.i
+.PHONY : cmake_pch.hxx.i
+
+# target to generate assembly for a file
+cmake_pch.hxx.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dx-portfolio.dir\build.make CMakeFiles/dx-portfolio.dir/cmake_pch.hxx.s
+.PHONY : cmake_pch.hxx.s
+
 src/WindowsMessageMap.obj: src/WindowsMessageMap.cpp.obj
 .PHONY : src/WindowsMessageMap.obj
 
@@ -185,6 +200,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... dx-portfolio
+	@echo ... cmake_pch.hxx.pch
+	@echo ... cmake_pch.hxx.i
+	@echo ... cmake_pch.hxx.s
 	@echo ... src/WindowsMessageMap.obj
 	@echo ... src/WindowsMessageMap.i
 	@echo ... src/WindowsMessageMap.s

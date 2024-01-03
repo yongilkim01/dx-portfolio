@@ -101,8 +101,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-t3xsy0"
-      binary: "C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-t3xsy0"
+      source: "C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-nyi97c"
+      binary: "C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-nyi97c"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
       CMAKE_C_FLAGS: ""
@@ -112,17 +112,17 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-t3xsy0'
+        Change Dir: 'C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-nyi97c'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_c3c4d/fast
-        C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_c3c4d.dir\\build.make CMakeFiles/cmTC_c3c4d.dir/build
-        mingw32-make.exe[1]: Entering directory 'C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-t3xsy0'
-        Building C object CMakeFiles/cmTC_c3c4d.dir/CMakeCCompilerABI.c.obj
-        C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_c3c4d.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_c3c4d.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles\\cmTC_c3c4d.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
-        Linking C executable cmTC_c3c4d.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_c3c4d.dir\\link.txt --verbose=1
-        C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles\\cmTC_c3c4d.dir\\objects1.rsp -o cmTC_c3c4d.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_c3c4d.lib -Xlinker /pdb:C:\\Users\\yongi\\OneDrive\\projects\\dx-portfolio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t3xsy0\\cmTC_c3c4d.pdb -Xlinker /version:0.0  
-        mingw32-make.exe[1]: Leaving directory 'C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-t3xsy0'
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_91416/fast
+        C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_91416.dir\\build.make CMakeFiles/cmTC_91416.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-nyi97c'
+        Building C object CMakeFiles/cmTC_91416.dir/CMakeCCompilerABI.c.obj
+        C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_91416.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_91416.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles\\cmTC_91416.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+        Linking C executable cmTC_91416.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_91416.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles\\cmTC_91416.dir\\objects1.rsp -o cmTC_91416.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_91416.lib -Xlinker /pdb:C:\\Users\\yongi\\OneDrive\\projects\\dx-portfolio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyi97c\\cmTC_91416.pdb -Xlinker /version:0.0  
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-nyi97c'
         
       exitCode: 0
   -
@@ -134,8 +134,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-o58kmm"
-      binary: "C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-o58kmm"
+      source: "C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-32kjvv"
+      binary: "C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-32kjvv"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
       CMAKE_CXX_FLAGS: ""
@@ -145,17 +145,17 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-o58kmm'
+        Change Dir: 'C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-32kjvv'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_582ce/fast
-        C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_582ce.dir\\build.make CMakeFiles/cmTC_582ce.dir/build
-        mingw32-make.exe[1]: Entering directory 'C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-o58kmm'
-        Building CXX object CMakeFiles/cmTC_582ce.dir/CMakeCXXCompilerABI.cpp.obj
-        C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_582ce.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_582ce.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles\\cmTC_582ce.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
-        Linking CXX executable cmTC_582ce.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_582ce.dir\\link.txt --verbose=1
-        C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles\\cmTC_582ce.dir\\objects1.rsp -o cmTC_582ce.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_582ce.lib -Xlinker /pdb:C:\\Users\\yongi\\OneDrive\\projects\\dx-portfolio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o58kmm\\cmTC_582ce.pdb -Xlinker /version:0.0  
-        mingw32-make.exe[1]: Leaving directory 'C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-o58kmm'
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_d2460/fast
+        C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_d2460.dir\\build.make CMakeFiles/cmTC_d2460.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-32kjvv'
+        Building CXX object CMakeFiles/cmTC_d2460.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_d2460.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_d2460.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles\\cmTC_d2460.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+        Linking CXX executable cmTC_d2460.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_d2460.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles\\cmTC_d2460.dir\\objects1.rsp -o cmTC_d2460.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_d2460.lib -Xlinker /pdb:C:\\Users\\yongi\\OneDrive\\projects\\dx-portfolio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-32kjvv\\cmTC_d2460.pdb -Xlinker /version:0.0  
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-32kjvv'
         
       exitCode: 0
   -
@@ -170,8 +170,8 @@ events:
     checks:
       - "Detecting CXX compile features"
     directories:
-      source: "C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-v2jwl6"
-      binary: "C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-v2jwl6"
+      source: "C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-g5cwjx"
+      binary: "C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-g5cwjx"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
       CMAKE_CXX_FLAGS: ""
@@ -181,17 +181,17 @@ events:
       variable: "CMAKE_CXX_FEATURE_TEST"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-v2jwl6'
+        Change Dir: 'C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-g5cwjx'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_cefec/fast
-        C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_cefec.dir\\build.make CMakeFiles/cmTC_cefec.dir/build
-        mingw32-make.exe[1]: Entering directory 'C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-v2jwl6'
-        Building CXX object CMakeFiles/cmTC_cefec.dir/feature_tests.cxx.obj
-        C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_cefec.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_cefec.dir\\feature_tests.cxx.obj.d -o CMakeFiles\\cmTC_cefec.dir\\feature_tests.cxx.obj -c C:\\Users\\yongi\\OneDrive\\projects\\dx-portfolio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v2jwl6\\feature_tests.cxx
-        Linking CXX executable cmTC_cefec.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_cefec.dir\\link.txt --verbose=1
-        C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles\\cmTC_cefec.dir\\objects1.rsp -o cmTC_cefec.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_cefec.lib -Xlinker /pdb:C:\\Users\\yongi\\OneDrive\\projects\\dx-portfolio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v2jwl6\\cmTC_cefec.pdb -Xlinker /version:0.0  @CMakeFiles\\cmTC_cefec.dir\\linkLibs.rsp 
-        mingw32-make.exe[1]: Leaving directory 'C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-v2jwl6'
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_38a9b/fast
+        C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_38a9b.dir\\build.make CMakeFiles/cmTC_38a9b.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-g5cwjx'
+        Building CXX object CMakeFiles/cmTC_38a9b.dir/feature_tests.cxx.obj
+        C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_38a9b.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_38a9b.dir\\feature_tests.cxx.obj.d -o CMakeFiles\\cmTC_38a9b.dir\\feature_tests.cxx.obj -c C:\\Users\\yongi\\OneDrive\\projects\\dx-portfolio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g5cwjx\\feature_tests.cxx
+        Linking CXX executable cmTC_38a9b.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_38a9b.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles\\cmTC_38a9b.dir\\objects1.rsp -o cmTC_38a9b.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_38a9b.lib -Xlinker /pdb:C:\\Users\\yongi\\OneDrive\\projects\\dx-portfolio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g5cwjx\\cmTC_38a9b.pdb -Xlinker /version:0.0  @CMakeFiles\\cmTC_38a9b.dir\\linkLibs.rsp 
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-g5cwjx'
         
       exitCode: 0
   -
@@ -206,8 +206,8 @@ events:
     checks:
       - "Detecting CXX compile features"
     directories:
-      source: "C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-rasp4d"
-      binary: "C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-rasp4d"
+      source: "C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-9ztx7n"
+      binary: "C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-9ztx7n"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
       CMAKE_CXX_FLAGS: ""
@@ -217,250 +217,17 @@ events:
       variable: "CMAKE_CXX_FEATURE_TEST"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-rasp4d'
+        Change Dir: 'C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-9ztx7n'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_4e186/fast
-        C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_4e186.dir\\build.make CMakeFiles/cmTC_4e186.dir/build
-        mingw32-make.exe[1]: Entering directory 'C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-rasp4d'
-        Building CXX object CMakeFiles/cmTC_4e186.dir/feature_tests.cxx.obj
-        C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_4e186.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_4e186.dir\\feature_tests.cxx.obj.d -o CMakeFiles\\cmTC_4e186.dir\\feature_tests.cxx.obj -c C:\\Users\\yongi\\OneDrive\\projects\\dx-portfolio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rasp4d\\feature_tests.cxx
-        Linking CXX executable cmTC_4e186.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_4e186.dir\\link.txt --verbose=1
-        C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles\\cmTC_4e186.dir\\objects1.rsp -o cmTC_4e186.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_4e186.lib -Xlinker /pdb:C:\\Users\\yongi\\OneDrive\\projects\\dx-portfolio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rasp4d\\cmTC_4e186.pdb -Xlinker /version:0.0  @CMakeFiles\\cmTC_4e186.dir\\linkLibs.rsp 
-        mingw32-make.exe[1]: Leaving directory 'C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-rasp4d'
-        
-      exitCode: 0
-...
-
----
-events:
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
-      - "CMakeLists.txt:3 (project)"
-    message: |
-      The system is: Windows - 10.0.22621 - AMD64
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:3 (project)"
-    message: |
-      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-      Compiler: C:/Program Files/LLVM/bin/clang.exe 
-      Build flags: 
-      Id flags:  
-      
-      The output was:
-      0
-      
-      
-      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
-      
-      The C compiler identification is Clang, found in:
-        C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/3.28.1/CompilerIdC/a.exe
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1182 (message)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:247 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:3 (project)"
-    message: |
-      Detecting C compiler /showIncludes prefix:
-        
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1182 (message)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:247 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:3 (project)"
-    message: |
-      Detecting C compiler /showIncludes prefix:
-        
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:3 (project)"
-    message: |
-      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler: C:/Program Files/LLVM/bin/clang++.exe 
-      Build flags: 
-      Id flags:  
-      
-      The output was:
-      0
-      
-      
-      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
-      
-      The CXX compiler identification is Clang, found in:
-        C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/3.28.1/CompilerIdCXX/a.exe
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1182 (message)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:247 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:3 (project)"
-    message: |
-      Detecting CXX compiler /showIncludes prefix:
-        
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1182 (message)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:247 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:3 (project)"
-    message: |
-      Detecting CXX compiler /showIncludes prefix:
-        
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:3 (project)"
-    checks:
-      - "Detecting C compiler ABI info"
-    directories:
-      source: "C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-z7bvwp"
-      binary: "C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-z7bvwp"
-    cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
-      CMAKE_C_FLAGS: ""
-      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
-      CMAKE_EXE_LINKER_FLAGS: ""
-    buildResult:
-      variable: "CMAKE_C_ABI_COMPILED"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-z7bvwp'
-        
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_72315/fast
-        C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_72315.dir\\build.make CMakeFiles/cmTC_72315.dir/build
-        mingw32-make.exe[1]: Entering directory 'C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-z7bvwp'
-        Building C object CMakeFiles/cmTC_72315.dir/CMakeCCompilerABI.c.obj
-        C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_72315.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_72315.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles\\cmTC_72315.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
-        Linking C executable cmTC_72315.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_72315.dir\\link.txt --verbose=1
-        C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles\\cmTC_72315.dir\\objects1.rsp -o cmTC_72315.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_72315.lib -Xlinker /pdb:C:\\Users\\yongi\\OneDrive\\projects\\dx-portfolio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z7bvwp\\cmTC_72315.pdb -Xlinker /version:0.0  
-        mingw32-make.exe[1]: Leaving directory 'C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-z7bvwp'
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:3 (project)"
-    checks:
-      - "Detecting CXX compiler ABI info"
-    directories:
-      source: "C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-7xs6f2"
-      binary: "C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-7xs6f2"
-    cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
-      CMAKE_CXX_FLAGS: ""
-      CMAKE_CXX_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
-      CMAKE_EXE_LINKER_FLAGS: ""
-    buildResult:
-      variable: "CMAKE_CXX_ABI_COMPILED"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-7xs6f2'
-        
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_dc016/fast
-        C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_dc016.dir\\build.make CMakeFiles/cmTC_dc016.dir/build
-        mingw32-make.exe[1]: Entering directory 'C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-7xs6f2'
-        Building CXX object CMakeFiles/cmTC_dc016.dir/CMakeCXXCompilerABI.cpp.obj
-        C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_dc016.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_dc016.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles\\cmTC_dc016.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
-        Linking CXX executable cmTC_dc016.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_dc016.dir\\link.txt --verbose=1
-        C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles\\cmTC_dc016.dir\\objects1.rsp -o cmTC_dc016.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_dc016.lib -Xlinker /pdb:C:\\Users\\yongi\\OneDrive\\projects\\dx-portfolio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7xs6f2\\cmTC_dc016.pdb -Xlinker /version:0.0  
-        mingw32-make.exe[1]: Leaving directory 'C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-7xs6f2'
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake:84 (_record_compiler_features)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake:121 (_record_compiler_features_cxx)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:70 (CMAKE_DETERMINE_COMPILE_FEATURES)"
-      - "CMakeLists.txt:3 (project)"
-    checks:
-      - "Detecting CXX compile features"
-    directories:
-      source: "C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-xoc5fp"
-      binary: "C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-xoc5fp"
-    cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
-      CMAKE_CXX_FLAGS: ""
-      CMAKE_CXX_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
-      CMAKE_EXE_LINKER_FLAGS: ""
-    buildResult:
-      variable: "CMAKE_CXX_FEATURE_TEST"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-xoc5fp'
-        
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_6dd09/fast
-        C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_6dd09.dir\\build.make CMakeFiles/cmTC_6dd09.dir/build
-        mingw32-make.exe[1]: Entering directory 'C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-xoc5fp'
-        Building CXX object CMakeFiles/cmTC_6dd09.dir/feature_tests.cxx.obj
-        C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_6dd09.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_6dd09.dir\\feature_tests.cxx.obj.d -o CMakeFiles\\cmTC_6dd09.dir\\feature_tests.cxx.obj -c C:\\Users\\yongi\\OneDrive\\projects\\dx-portfolio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xoc5fp\\feature_tests.cxx
-        Linking CXX executable cmTC_6dd09.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_6dd09.dir\\link.txt --verbose=1
-        C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles\\cmTC_6dd09.dir\\objects1.rsp -o cmTC_6dd09.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_6dd09.lib -Xlinker /pdb:C:\\Users\\yongi\\OneDrive\\projects\\dx-portfolio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xoc5fp\\cmTC_6dd09.pdb -Xlinker /version:0.0  @CMakeFiles\\cmTC_6dd09.dir\\linkLibs.rsp 
-        mingw32-make.exe[1]: Leaving directory 'C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-xoc5fp'
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake:84 (_record_compiler_features)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake:129 (_record_compiler_features_cxx)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:70 (CMAKE_DETERMINE_COMPILE_FEATURES)"
-      - "CMakeLists.txt:3 (project)"
-    checks:
-      - "Detecting CXX compile features"
-    directories:
-      source: "C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-8tqdjv"
-      binary: "C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-8tqdjv"
-    cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
-      CMAKE_CXX_FLAGS: ""
-      CMAKE_CXX_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
-      CMAKE_EXE_LINKER_FLAGS: ""
-    buildResult:
-      variable: "CMAKE_CXX_FEATURE_TEST"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-8tqdjv'
-        
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_c1e70/fast
-        C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_c1e70.dir\\build.make CMakeFiles/cmTC_c1e70.dir/build
-        mingw32-make.exe[1]: Entering directory 'C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-8tqdjv'
-        Building CXX object CMakeFiles/cmTC_c1e70.dir/feature_tests.cxx.obj
-        C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_c1e70.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_c1e70.dir\\feature_tests.cxx.obj.d -o CMakeFiles\\cmTC_c1e70.dir\\feature_tests.cxx.obj -c C:\\Users\\yongi\\OneDrive\\projects\\dx-portfolio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8tqdjv\\feature_tests.cxx
-        Linking CXX executable cmTC_c1e70.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_c1e70.dir\\link.txt --verbose=1
-        C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles\\cmTC_c1e70.dir\\objects1.rsp -o cmTC_c1e70.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_c1e70.lib -Xlinker /pdb:C:\\Users\\yongi\\OneDrive\\projects\\dx-portfolio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8tqdjv\\cmTC_c1e70.pdb -Xlinker /version:0.0  @CMakeFiles\\cmTC_c1e70.dir\\linkLibs.rsp 
-        mingw32-make.exe[1]: Leaving directory 'C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-8tqdjv'
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_08e7b/fast
+        C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_08e7b.dir\\build.make CMakeFiles/cmTC_08e7b.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-9ztx7n'
+        Building CXX object CMakeFiles/cmTC_08e7b.dir/feature_tests.cxx.obj
+        C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_08e7b.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_08e7b.dir\\feature_tests.cxx.obj.d -o CMakeFiles\\cmTC_08e7b.dir\\feature_tests.cxx.obj -c C:\\Users\\yongi\\OneDrive\\projects\\dx-portfolio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9ztx7n\\feature_tests.cxx
+        Linking CXX executable cmTC_08e7b.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_08e7b.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles\\cmTC_08e7b.dir\\objects1.rsp -o cmTC_08e7b.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_08e7b.lib -Xlinker /pdb:C:\\Users\\yongi\\OneDrive\\projects\\dx-portfolio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9ztx7n\\cmTC_08e7b.pdb -Xlinker /version:0.0  @CMakeFiles\\cmTC_08e7b.dir\\linkLibs.rsp 
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/CMakeScratch/TryCompile-9ztx7n'
         
       exitCode: 0
 ...

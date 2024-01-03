@@ -1,13 +1,19 @@
 [
 {
   "directory": "C:/Users/yongi/OneDrive/projects/dx-portfolio/build",
-  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE  @CMakeFiles/dx-portfolio.dir/includes_CXX.rsp -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\dx-portfolio.dir\\src\\main.cc.obj -c C:\\Users\\yongi\\OneDrive\\projects\\dx-portfolio\\src\\main.cc",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE  @CMakeFiles/dx-portfolio.dir/includes_CXX.rsp -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xclang -emit-pch -Xclang -include -Xclang C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/dx-portfolio.dir/cmake_pch.hxx -x c++-header -o CMakeFiles\\dx-portfolio.dir\\cmake_pch.hxx.pch -c C:\\Users\\yongi\\OneDrive\\projects\\dx-portfolio\\build\\CMakeFiles\\dx-portfolio.dir\\cmake_pch.hxx.cxx",
+  "file": "C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/dx-portfolio.dir/cmake_pch.hxx.cxx",
+  "output": "CMakeFiles/dx-portfolio.dir/cmake_pch.hxx.pch"
+},
+{
+  "directory": "C:/Users/yongi/OneDrive/projects/dx-portfolio/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE  @CMakeFiles/dx-portfolio.dir/includes_CXX.rsp -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xclang -include-pch -Xclang C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/dx-portfolio.dir/cmake_pch.hxx.pch -Xclang -include -Xclang C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/dx-portfolio.dir/cmake_pch.hxx -o CMakeFiles\\dx-portfolio.dir\\src\\main.cc.obj -c C:\\Users\\yongi\\OneDrive\\projects\\dx-portfolio\\src\\main.cc",
   "file": "C:/Users/yongi/OneDrive/projects/dx-portfolio/src/main.cc",
   "output": "CMakeFiles/dx-portfolio.dir/src/main.cc.obj"
 },
 {
   "directory": "C:/Users/yongi/OneDrive/projects/dx-portfolio/build",
-  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE  @CMakeFiles/dx-portfolio.dir/includes_CXX.rsp -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\dx-portfolio.dir\\src\\WindowsMessageMap.cpp.obj -c C:\\Users\\yongi\\OneDrive\\projects\\dx-portfolio\\src\\WindowsMessageMap.cpp",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE  @CMakeFiles/dx-portfolio.dir/includes_CXX.rsp -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xclang -include-pch -Xclang C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/dx-portfolio.dir/cmake_pch.hxx.pch -Xclang -include -Xclang C:/Users/yongi/OneDrive/projects/dx-portfolio/build/CMakeFiles/dx-portfolio.dir/cmake_pch.hxx -o CMakeFiles\\dx-portfolio.dir\\src\\WindowsMessageMap.cpp.obj -c C:\\Users\\yongi\\OneDrive\\projects\\dx-portfolio\\src\\WindowsMessageMap.cpp",
   "file": "C:/Users/yongi/OneDrive/projects/dx-portfolio/src/WindowsMessageMap.cpp",
   "output": "CMakeFiles/dx-portfolio.dir/src/WindowsMessageMap.cpp.obj"
 }
