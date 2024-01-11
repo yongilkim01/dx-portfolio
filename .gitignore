@@ -5,6 +5,7 @@
 *.suo
 *.user
 *.sln.docstates
+*.sln
 
 # ignore all files in the build/ directory
 build/
