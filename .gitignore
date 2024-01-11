@@ -1,5 +1,8 @@
+# Visual Studio 2015 cache/options directory
+.vs/
+
 # ignore all files in the build/ directory
-build\
+build/
 
 # Prerequisites
 *.d
