@@ -1,6 +1,11 @@
 # Visual Studio 2015 cache/options directory
 .vs/
 
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
+
 # ignore all files in the build/ directory
 build/
 
