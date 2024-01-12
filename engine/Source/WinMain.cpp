@@ -24,10 +24,12 @@ int CALLBACK WinMain(HINSTANCE hInstance, HINSTANCE, LPSTR lpCmdLine, INT nCmdSh
 {
 	/* - Create Window Class - */
 
-	wcscpy_s(WindowClass, TEXT("DirectXClass"));
-	wcscpy_s(WindowTitle, TEXT("DirectX Portfolio"));
+	LoadString(HInstance(), IDS_PERGAMENAME, WindowTitle, MAX_NAME_STRING);
+	LoadString(HInstance(), IDS_WINDOWCLASS, WindowClass, MAX_NAME_STRING);
+
 	WindowWidth = 1366;
 	WindowHeight = 768;
+
 	hIcon = LoadIcon(HInstance(), MAKEINTRESOURCE(IDI_MAINICON));
 
 	/* - Create Window Class - */
