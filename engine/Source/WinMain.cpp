@@ -1,5 +1,15 @@
 #include "pch.h"
+/* -------------------------------------------------------------- */
+/*   Filename: WinMain.cpp                                        */
+/*   Author: yongil kim                                           */
+/*   Licence: MIT Licence                                         */
+/* -------------------------------------------------------------- */
 
+
+/* -------------------------------------------------------------- */
+/*   Global Variables                                             */
+/* -------------------------------------------------------------- */
+#pragma region GlobalVariables
 WCHAR		WindowClass[MAX_NAME_STRING];
 WCHAR		WindowTitle[MAX_NAME_STRING];
 
@@ -7,10 +17,42 @@ INT			WindowWidth;
 INT			WindowHeight;
 
 HICON		hIcon;
+#pragma endregion
+/* -------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------- */
+/*   Pre-Declarations                                             */
+/* -------------------------------------------------------------- */
+#pragma region Pre-Declarations
+
+VOID InitializeVariables();
+VOID CreateWindowClass();
+VOID InitializeWindow();
+VOID MessageLoop();
+LRESULT CALLBACK WindowProcess(HWND hWnd, UINT message, WPARAM wparam, LPARAM lparam);
+
+#pragma endregion
+/* -------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------- */
+/*   Operations                                                   */
+/* -------------------------------------------------------------- */
+#pragma region Operations
+int CALLBACK WinMain(HINSTANCE hInstance, HINSTANCE, LPSTR lpCmdLine, INT nCmdShow) 
+{
+	InitializeVariables();
+	CreateWindowClass();
+	InitializeWindow();
+	MessageLoop();
+
+	return 0;
+}
 
 LRESULT CALLBACK WindowProcess(HWND hWnd, UINT message, WPARAM wparam, LPARAM lparam)
 {
-	switch (message) 
+	switch (message)
 	{
 	case WM_DESTROY:
 		PostQuitMessage(0);
@@ -19,11 +61,17 @@ LRESULT CALLBACK WindowProcess(HWND hWnd, UINT message, WPARAM wparam, LPARAM lp
 
 	return DefWindowProc(hWnd, message, wparam, lparam);
 }
+#pragma endregion
+/* -------------------------------------------------------------- */
 
-int CALLBACK WinMain(HINSTANCE hInstance, HINSTANCE, LPSTR lpCmdLine, INT nCmdShow) 
+
+/* -------------------------------------------------------------- */
+/*   Functions                                                    */
+/* -------------------------------------------------------------- */
+#pragma region Functions
+
+VOID InitializeVariables()
 {
-	/* - Create Window Class - */
-
 	LoadString(HInstance(), IDS_PERGAMENAME, WindowTitle, MAX_NAME_STRING);
 	LoadString(HInstance(), IDS_WINDOWCLASS, WindowClass, MAX_NAME_STRING);
 
@@ -31,44 +79,40 @@ int CALLBACK WinMain(HINSTANCE hInstance, HINSTANCE, LPSTR lpCmdLine, INT nCmdSh
 	WindowHeight = 768;
 
 	hIcon = LoadIcon(HInstance(), MAKEINTRESOURCE(IDI_MAINICON));
+}
 
-	/* - Create Window Class - */
-
+VOID CreateWindowClass()
+{
 	WNDCLASSEX wcex;
-
 	wcex.cbSize = sizeof(WNDCLASSEX);
 	wcex.style = CS_HREDRAW | CS_VREDRAW;
 	wcex.cbClsExtra = 0;
 	wcex.cbWndExtra = 0;
-	
 	wcex.hCursor = LoadCursor(nullptr, IDC_ARROW);
 	wcex.hbrBackground = (HBRUSH)GetStockObject(NULL_BRUSH);
-
 	wcex.hIcon = hIcon;
 	wcex.hIconSm = hIcon;
-
 	wcex.lpszClassName = WindowClass;
-
 	wcex.lpszMenuName = nullptr;
-	wcex.hInstance = hInstance;
-
+	wcex.hInstance = HInstance();
 	wcex.lpfnWndProc = WindowProcess;
-
 	RegisterClassEx(&wcex);
+}
 
-	/* - Create and Display Window - */
-
-	HWND hWnd = CreateWindow(WindowClass, WindowTitle, WS_OVERLAPPEDWINDOW, 
+VOID InitializeWindow()
+{
+	HWND hWnd = CreateWindow(WindowClass, WindowTitle, WS_OVERLAPPEDWINDOW,
 		CW_USEDEFAULT, 0, WindowWidth, WindowHeight, nullptr, nullptr, HInstance(), nullptr);
 	if (!hWnd) {
 		MessageBox(0, L"Failed to Create Window!.", 0, 0);
-		return 0;
+		PostQuitMessage(0);
 	}
 
 	ShowWindow(hWnd, SW_SHOW);
+}
 
-	/* - Listen for Message events - */
-
+VOID MessageLoop()
+{
 	MSG msg = { 0 };
 	while (msg.message != WM_QUIT)
 	{
@@ -78,6 +122,7 @@ int CALLBACK WinMain(HINSTANCE hInstance, HINSTANCE, LPSTR lpCmdLine, INT nCmdSh
 			DispatchMessage(&msg);
 		}
 	}
-
-	return 0;
 }
+
+#pragma endregion
+/* -------------------------------------------------------------- */
