@@ -10,6 +10,7 @@
 /*   Global Variables                                             */
 /* -------------------------------------------------------------- */
 #pragma region GlobalVariables
+
 WCHAR		WindowClass[MAX_NAME_STRING];
 WCHAR		WindowTitle[MAX_NAME_STRING];
 
@@ -17,6 +18,7 @@ INT			WindowWidth;
 INT			WindowHeight;
 
 HICON		hIcon;
+
 #pragma endregion
 /* -------------------------------------------------------------- */
 
@@ -40,6 +42,7 @@ LRESULT CALLBACK WindowProcess(HWND hWnd, UINT message, WPARAM wparam, LPARAM lp
 /*   Operations                                                   */
 /* -------------------------------------------------------------- */
 #pragma region Operations
+/*
 int CALLBACK WinMain(HINSTANCE hInstance, HINSTANCE, LPSTR lpCmdLine, INT nCmdShow) 
 {
 	InitializeVariables();
@@ -49,7 +52,7 @@ int CALLBACK WinMain(HINSTANCE hInstance, HINSTANCE, LPSTR lpCmdLine, INT nCmdSh
 
 	return 0;
 }
-
+*/
 LRESULT CALLBACK WindowProcess(HWND hWnd, UINT message, WPARAM wparam, LPARAM lparam)
 {
 	switch (message)
@@ -61,6 +64,7 @@ LRESULT CALLBACK WindowProcess(HWND hWnd, UINT message, WPARAM wparam, LPARAM lp
 
 	return DefWindowProc(hWnd, message, wparam, lparam);
 }
+
 #pragma endregion
 /* -------------------------------------------------------------- */
 

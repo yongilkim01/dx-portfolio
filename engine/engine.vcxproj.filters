@@ -2,51 +2,50 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Resources">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+      <UniqueIdentifier>{2efb2f16-0bff-46a2-8100-009a32dd0c67}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source">
-      <UniqueIdentifier>{987a3b25-7b4b-494f-9f3c-6c9a2ac7a316}</UniqueIdentifier>
+      <UniqueIdentifier>{6a89265a-052a-431b-a5ee-e698f344fd2b}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source\Public">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+      <UniqueIdentifier>{dd4619a5-f8a9-4313-af62-e8906f01f066}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source\Private">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+      <UniqueIdentifier>{569511ab-87b4-4fea-a752-74921e54b438}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source\pch">
-      <UniqueIdentifier>{4e671a87-e29b-4797-8054-6a4d1b68d067}</UniqueIdentifier>
+      <UniqueIdentifier>{86598b88-5a86-4924-9b0c-19e5ca25b613}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Resources\Icons">
-      <UniqueIdentifier>{8781f58d-8129-435a-984b-2b16a2cee9eb}</UniqueIdentifier>
+    <Filter Include="Source\Private\Platform">
+      <UniqueIdentifier>{1a61c1cd-71ed-4d97-8499-48aec2a88d71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Private\Platform\WIN32">
+      <UniqueIdentifier>{663e634b-f82c-4dc6-a9dd-347b8a80d79d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Public\Platform">
+      <UniqueIdentifier>{2c7cf41c-1358-425e-932f-44d27bd85f60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Public\Platform\WIN32">
+      <UniqueIdentifier>{4d8653ea-d885-457f-b633-0cd304d6d8ea}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source\WinMain.cpp">
-      <Filter>Source\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\pch.cpp">
-      <Filter>Source\pch</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Source\pch.h">
+    <ClInclude Include="Source\Engine.h">
       <Filter>Source\pch</Filter>
     </ClInclude>
-    <ClInclude Include="resource.h">
-      <Filter>Resources</Filter>
+    <ClInclude Include="Source\Platform\WIN32\IApplication.h">
+      <Filter>Source\Public\Platform\WIN32</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Platform\WIN32\WinEntry.h">
+      <Filter>Source\Public\Platform\WIN32</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="Engine.rc">
-      <Filter>Resources</Filter>
-    </ResourceCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="Content\Icons\directx_icon.ico">
-      <Filter>Resources\Icons</Filter>
-    </Image>
+    <ClCompile Include="Source\Engine.cpp">
+      <Filter>Source\pch</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Platform\WIN32\IApplication.cpp">
+      <Filter>Source\Private\Platform\WIN32</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
