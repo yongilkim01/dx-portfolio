@@ -22,10 +22,16 @@ VOID Application::SetupPerGameSetting()
 
 VOID Application::Initialize()
 {
-	Logger::PrintLog(L"I have Loaded Up %s, Thankyou", L"Game project");
+	Logger::PrintDebugSeperartor();
+	Logger::PrintLog(L"Application Starting...\n");
+	Logger::PrintLog(L"Game Name: %s\n", PerGameSetting::GameName());
+	Logger::PrintLog(L"Boot Time: %s\n", Time::GetDateTimeString().c_str());
+	Logger::PrintDebugSeperartor();
+
+	Logger::StartMTail();
 }
 
 VOID Application::Update()
 {
-	MessageBox(0, L"Loop", 0, 0);
+	MessageBox(0, L" Loop ", 0, 0);
 }
