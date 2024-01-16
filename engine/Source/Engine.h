@@ -11,3 +11,5 @@
 #else
 	#define ENGINE_API __declspec(dllimport)
 #endif
+
+#include "Common/Logger.h"
